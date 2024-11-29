@@ -234,6 +234,7 @@ public class Principal {
             leitura.nextLine();
 
             List<Episodio> episodiosAno = repositorio.episodiosPorSerieEAno(serie, anoLancamento);
+            episodiosAno.forEach(System.out::println);
         }
     }
 }
